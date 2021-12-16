@@ -1,0 +1,24 @@
+import {
+  Meta,
+  Story,
+  Canvas,
+  Description,
+  ArgsTable,
+} from "@storybook/addon-docs";
+import { Button2 } from "./Button2";
+
+<Meta title="Button2" component={Button2} />
+
+# Button2
+
+<Description />
+
+## Playground
+
+<Canvas>
+  <Story name="Button2">{(args) => <Button2 {...args} />}</Story>
+</Canvas>
+
+## Button2 Props
+
+<ArgsTable story="Button2" />
